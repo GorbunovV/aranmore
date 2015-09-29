@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "HelveticalNeue-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticalNeue-Bold/HelveticalNeue-Bold.otf")}
+@font-face {
+  font-family: "HelveticalNeue-LTSTD";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticalNeue-LTSTD/HelveticalNeue-LTSTD.otf")}
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+  font-family: "System";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/System/System.ttf") format("truetype")}

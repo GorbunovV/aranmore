@@ -1,0 +1,581 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+@media only screen and (min-width : 300px) {
+    .header .__right input {
+        width: 90%;
+    }
+    .border::after {
+        display: none;
+    }
+    .events .wrap-events {
+        top: 0px;
+    }
+    .slider .bxslider img {
+        height: 180px;
+    }
+    .events-body h3 {
+        line-height: 25px;
+    }
+    .wrap-store {
+        margin-bottom: 40px;
+    }
+    .footer .wrap-item .right {
+        padding-left: 50px;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .__wrap-top-mnu {
+        display: none;
+    }   
+    .events {
+        height: 100%;
+    }
+    .events .__item1 {
+        padding: 20px 20px;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .events .__item1 span {
+        line-height: 30px;
+        font-size: 35px;
+    }
+    .events .__item1 h2 {
+        margin: 0;
+    }
+    .events .wrap-item {
+        height: 100px;
+    }
+    .events .wrap-item .calendar-last {
+        display: none;
+    }
+    .events .item {
+        padding-left: 30px;
+        top: 15%;
+        width: 68%;
+    }
+    .events .wrap-item .calendar-first-icon {
+        display: block;
+    }
+    .events-body h3 {
+        font-size: 30px;
+    }
+    .events-body p {
+        font-size: 15px;
+    }
+    .wrap-store {
+        margin-bottom: 40px;
+    }
+    .title,.title-messager {
+        top: -25px;
+    }
+    .title h2,.title-messager h2 {
+        padding: 20px 20px;
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .all-info {
+        left:64%;
+        top: 1%;
+    }
+    .news-all-info {
+        left: 50%;
+    }
+    .wrap-news {
+        margin-top: 10px;
+    }
+    .wrap-news .news-info {
+        width: 100%;
+        margin: 0;
+    }
+    .gallery-foto {
+        margin: 70px 0;
+    }
+    .gallery .gallery-foto img {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .wrap-news .news-photo,.wrap-news .news-info {
+        float: left;
+    }
+    .messager-bg {
+        border-top-left-radius: 25% 15%;
+    }
+    .messager-box .messager-photo {
+        display: none;
+    }
+    .messager-box .messager-info img {
+        float: left;
+        margin: 0 10px 5px 0;
+        width: 35%;
+    }
+    .messager-box .messager-info p {
+        font-size: 12px;
+    }
+    .messager-box .messager-sign {
+        margin: 20px 40px;
+    }
+    .tour .tour-left {
+        margin-bottom: 15px;
+    }
+    .tour .tour-left h3 {
+        font-size: 45px;
+        margin: 35px 0px 20px;
+    }
+    .tour .tour-left p {
+        font-size: 15px;
+    }
+    .tour-right img {
+        width: 100%;
+    }
+    .location img {
+        height: 160px;
+    }
+    .footer {
+        border-bottom-right-radius: 25% 15%;
+    }
+    .footer .items {
+        margin-right: 35px;
+    }
+    .footer .wrap-item ul a {
+        font-size: 16px;
+    }
+    .footer .wrap-item .wrap-social {
+        padding-left: 0;
+    }
+    .about .about-left .left-mnu {
+        font-size: 10px;
+        line-height: 30px;
+        padding: 0;
+    }
+    .about .wrap-about-right {
+        margin-left: 140px;
+        min-height: 225px;
+    }
+    .about .wrap-tab h2 {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .about .wrap-tab p {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width : 360px) {
+    .title h2,.title-messager h2 {
+        font-size: 20px;
+    }
+    .footer .wrap-item ul a {
+        font-size: 18px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .header .__right input {
+        width: 247px;
+    }
+    .slider .bxslider img {
+        height: 300px;
+    }
+    .events .__item1 {
+        padding: 22px 20px;
+        line-height: 30px;
+        font-size: 35px;
+    }
+    .events .wrap-item {
+        height: 100px;
+    }
+    .events .item {
+        padding-left: 30px;
+        top: 15%;
+        width: 68%;
+    }
+    .wrap-store {
+        margin-bottom: 40px;
+    }
+    .title,.title-messager {
+        top: -25px;
+    }
+    .title h2,.title-messager h2 {
+        font-size: 25px;
+        line-height: 15px;
+    }
+    .all-info {
+        left: 49%;
+        top: 1%;
+    }
+    .news-all-info {
+        left: 38%;
+    }
+    .gallery-foto {
+        margin: 70px 0;
+    }
+    .gallery .gallery-foto img {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .wrap-news .news-photo,.wrap-news .news-info {
+        float: left;
+    }
+    .wrap-news .news-info {
+        margin: 0 0 15px 15px;
+    }
+    .messager-bg {
+        border-top-left-radius: 25% 30%;
+    }
+    .messager-box .messager-photo {
+        margin-top: 70px;
+    }
+    .messager-box .messager-info p {
+        font-size: 12px;
+    }
+    .messager-box .messager-sign {
+        margin: 20px 40px;
+    }
+    .tour .tour-left {
+        margin-bottom: 15px;
+    }
+    .tour .tour-left h3 {
+        font-size: 70px;
+        margin: 45px 0px 30px;
+    }
+    .tour .tour-left p {
+        font-size: 15px;
+    }
+    .tour-right img {
+        width: 100%;
+    }
+    .location img {
+        height: 220px;
+    }
+    .footer {
+        border-bottom-right-radius: 25% 30%;
+    }
+    .footer .items {
+        margin-right: 35px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .slider .bxslider img {
+        height: 100%;
+    }
+    .events .wrap-events {
+        top: -20px;
+    }
+    .events .wrap-item .calendar-last {
+        display: block;
+    }
+    .events .wrap-item .calendar-first-icon {
+        display: none;
+    }
+    .events .wrap-item {
+           height: 200px;
+    }
+    .events .item {
+        padding-left: 15px;
+        top: 40%;
+        width: 100%;
+    }
+    .border::after {
+        display: block;
+    }
+    .events-body h3 {
+        font-size: 40px;
+    }
+    .events-body p {
+        font-size: 18px;
+    }
+    .title h2, .title-messager h2 {
+        font-size: 38px;
+        line-height: 20px;
+    }
+    .gallery .gallery-foto {
+        margin-bottom: 50px;
+    }
+    .wrap-news {
+        margin-top: 30px;
+    }
+    .wrap-news .news-info {
+        width: 65%;
+    }
+    .messager-box .messager-photo {
+        display: block;
+    }
+    .messager-box .messager-info img {
+        display: none;
+    }
+    .messager-box .messager-info p{
+        font-size: 14px;
+    }
+    .tour .tour-left h3 {
+        margin: 40px 0px 39px;
+        font-size: 63px;
+    }
+    .location img {
+        height: 320px;
+    }
+    .footer .wrap-item .right {
+        padding-left: 25px;
+    }
+    .footer .wrap-item ul a {
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (min-width : 800px) {
+    .all-info {
+        left: 59%;
+    }
+    .news-all-info {
+        left: 45%;
+    }
+
+    .events {
+        height: 100%;
+    }
+    .title h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .gallery-foto {
+        margin: 70px 0;
+    }
+    .gallery .gallery-foto img {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .wrap-news .news-photo,.wrap-news .news-info {
+        float: left;
+    }
+    .wrap-news .news-info {
+        margin: 0 0 15px 15px;
+    }
+    .title-messager h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .messager-box .messager-photo {
+        margin-top: 70px;
+    }
+    .messager-box .messager-sign {
+        margin: 20px 40px;
+    }
+    .tour .tour-left h3 {
+        font-size: 60px;
+        margin: 32px 0px 18px;
+    }
+    .tour .tour-left p {
+        font-size: 17px;
+    }
+    .tour-right img {
+        width: 100%;
+    }
+    .footer .wrap-item ul a {
+        font-size: 14px;
+    }
+    .footer .wrap-item .wrap-social {
+        padding-left: 0px;
+    }
+    .about .about-left .left-mnu {
+        font-size: 15px;
+        line-height: 40px;
+        padding: 20px;
+    }
+    .about .wrap-about-right {
+        margin-left: 230px;
+        min-height: 325px;
+    }
+    .about .wrap-tab h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .about .wrap-tab p {
+        font-size: 15px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .mnu {
+        display:none;
+    }
+    .__wrap-top-mnu {
+        display: block;
+    }
+    .events {
+        height: 474px;
+    }
+    .events .wrap-events {
+        top: -74px;
+    }
+    .events .item {
+        padding-left: 10px;
+    }
+    .border::after {
+        top: 35%;
+    }
+    .events .__item1 h2 {
+        margin: 43px 0;
+    }
+    .all-info {
+        left: 50%;
+    }
+    .events-body p {
+        font-size: 18px;
+    }
+    .gallery-foto {
+        margin: 30px 0;
+    }
+    .wrap-news .news-info {
+        width: 100%;
+    }
+    .news-all-info {
+        left: 38%;
+    }
+    .title h2,.title-messager h2 {
+        font-size: 50px;
+    }
+    .messager-box .messager-info p {
+        font-size: 18px;
+    }
+    .tour .tour-left h3 {
+        font-size: 80px;
+        margin: 60px 0px 50px;
+    }
+    .location img {
+        height: 400px;
+    }
+    .footer .wrap-item ul a {
+        font-size: 18px;
+    }
+    .about .about-left .left-mnu {
+        font-size: 20px;
+        line-height: 50px;
+        padding: 30px;
+    }
+    .about .wrap-about-right {
+        margin-left: 370px;
+        min-height: 440px;
+    }
+    .about .wrap-tab h2 {
+        font-size: 40px;
+        line-height: 25px;
+    }
+    .about .wrap-tab p {
+        font-size: 18px;
+    }
+    .footer .wrap-item .wrap-social {
+        padding-left: 45px;
+    }
+}
+@media only screen and (min-width : 1200px) {
+    .events .item {
+        padding-left: 30px;
+    }
+    .border::after {
+        top: 32%;
+    }
+    .all-info {
+        left: 42%;
+    }
+   .gallery .gallery-foto {
+        margin-bottom: 40px;
+    }
+    .gallery .gallery-foto img {
+        width: 80%;
+        margin-top: 25px;
+    }
+    .wrap-news .news-info {
+        width: 100%;
+    }
+    .news-all-info {
+        left: 32%;
+    }
+    .wrap-news .news-info {
+        width: 55%;
+        float: right;
+    }
+    .messager-box .messager-photo {
+        margin-top: 0px;
+    }
+    .messager-box .messager-sign {
+        margin: 15px 40px;
+    }
+    .tour .tour-left h3 {
+        font-size: 87px;
+        margin: 85px 0px 50px;
+    }
+    .tour .tour-left p {
+        font-size: 24px;
+    }
+    .tour-right img {
+        width: 85%;
+    }
+    .about .about-left .left-mnu {
+        font-size: 20px;
+        line-height: 50px;
+        padding: 30px 85px;
+    }
+    .about .wrap-about-right {
+       margin-left: 480px;
+        min-height: 450px;
+    }
+    .about .wrap-tab h2 {
+        font-size: 40px;
+        line-height: 25px;
+    }
+    .about .wrap-tab p {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width : 1366px)
+ /* Large Devices, Wide Screens */
